@@ -58,9 +58,9 @@ function SkillTree:new()
     self.temporary_bought_node_indexes = {}
 
     input:unbindAll()
-    input:bind('a', 'left')
-    input:bind('d', 'right')
-    input:bind('w', 'up')
+    input:bind('r', 'left')
+    input:bind('t', 'right')
+    input:bind('f', 'up')
     input:bind('s', 'down')
     input:bind('left', 'left')
     input:bind('right', 'right')
